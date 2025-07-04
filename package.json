@@ -1,0 +1,19 @@
+{
+  "name": "appointment-scheduling",
+  "version": "1.0.0",
+  "description": "A  web app for apppointments ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script/server.js"
+  },
+  "author": "amanda cavallaro",
+  "license": "ISC",
+  "dependencies": {
+    "@vonage/server-sdk": "^3.20.0",
+    "appointment-scheduling": "file:",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.2.0"
+  }
+}
